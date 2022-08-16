@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+* {
+  font-family: Didact Gothic, monospace;
+}
+
+body {
+  background-color: mediumseagreen;
+}
+
+#main-container {
+  background-color: white;
+  border-radius: 30px;
+  margin: 50px 0 0 50px;
+  padding: 30px;
+  width: 585px;
+}
+
+header {
+  font-weight: 700;
+}
+
+#funcionamento {
+  color: gray;
+  font-style: italic;
+}
+
+#criar-tarefa {
+  background-color: rgb(0 , 150 , 250);
+  border: 0;
+  border-radius: 20px;
+  color: white;
+  font-weight: 700;
+  margin-left: 15px;
+  padding: 10px;
+}
+
+.selected {
+  background-color: gray;
+}
+
+.completed {
+  color: lightgray;
+  text-decoration: line-through solid black;
+}
+
+button {
+  margin-right: 20px;
+}
+
+#apaga-tudo {
+  background-color: rgb(0 , 150 , 250);
+  border: 0;
+  border-radius: 20px;
+  color: white;
+  font-weight: 700;
+  padding: 10px;
+}
+
+#mover-cima , #mover-baixo {
+  background-color: rgb(0 , 150 , 250);
+  border: 0;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+  height: 38px;
+  padding: 10px;
+  width: 38px;
+}
+
+#remover-selecionado {
+  background-color: rgb(208 , 9 , 9);
+  border: 0;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+  height: 38px;
+  padding: 10px;
+  width: 38px;
+}
+
+#remover-finalizados {
+  background-color: rgb(73 , 6 , 6);
+  border: 0;
+  border-radius: 20px;
+  color: white;
+  font-weight: 700;
+  padding: 10px;
+}
+
+#salvar-tarefas {
+  background-color: rgb(16 , 183 , 50);
+  border: 0;
+  border-radius: 20px;
+  color: white;
+  font-weight: 700;
+  margin-right: 0;
+  padding: 10px;
+}
